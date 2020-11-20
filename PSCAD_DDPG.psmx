@@ -1,0 +1,58 @@
+<Meta name="PSCAD_DDPG">
+  <messagelist>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="100006"><![CDATA[Generating 'D:\C_Practice\Pyhton_C\Python_Invoker\x64\Debug\PSCAD_DDPG.if15\PSCAD_DDPG.map'.]]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="100014"><![CDATA[The total number of live nodes: 0]]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="400000"><![CDATA[Time for Compile: 0ms  Make: 0ms]]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="100015"><![CDATA[Will execute (1): call C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.2.254\windows\bin\ifortvars.bat  intel64]]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="100015"><![CDATA[Will execute (1): call "C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.2.254\windows\bin\ifortvars.bat"  intel64]]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="100015"><![CDATA[Will execute (2): nmake -f PSCAD_DDPG.mak]]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="100015"><![CDATA[Will execute (2): "D:\C_Practice\Pyhton_C\Python_Invoker\x64\Debug\PSCAD_DDPG.if15\PSCAD_DDPG.mak.bat"]]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="100005"><![CDATA[Creating EMTDC executable...]]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="0"><![CDATA[D:\C_Practice\Pyhton_C\Python_Invoker\x64\Debug\PSCAD_DDPG.if15>call "C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.2.254\windows\bin\ifortvars.bat"  intel64 ]]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="0"><![CDATA[Intel(R) MPI Library 2019 Update 8 for Windows* Target Build Environment for Intel(R) 64 applications]]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="0"><![CDATA[Copyright 2007-2020 Intel Corporation.]]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="0"><![CDATA[Copyright (C) 1985-2019 Intel Corporation. All rights reserved.]]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="0"><![CDATA[Intel(R) Compiler 19.1 Update 2 (package 254)]]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="0"><![CDATA[**********************************************************************]]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="0"><![CDATA[** Visual Studio 2019 Developer Command Prompt v16.8.0]]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="0"><![CDATA[** Copyright (c) 2020 Microsoft Corporation]]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="0"><![CDATA[**********************************************************************]]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="0"><![CDATA[[vcvarsall.bat] Environment initialized for: 'x64']]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="0"><![CDATA[Microsoft (R) Program Maintenance Utility Version 14.28.29333.0]]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="0"><![CDATA[Copyright (C) Microsoft Corporation.  All rights reserved.]]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="100004"><![CDATA[Compiling '"D:\C_Practice\Pyhton_C\Python_Invoker\x64\Debug\fortran_interface_c_1.f90"' into object code.]]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="0"><![CDATA[已复制         1 个文件。]]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="0"><![CDATA[	ifort.exe /nologo /c /free /real_size:64 /fpconstant /warn:declarations /iface:default /align:dcommons /fpe:0 /include:"C:\PROGRA~2\PSCAD46\emtdc\if15\inc" /include:"C:\PROGRA~2\PSCAD46\emtdc\if15" /include:"C:\PROGRA~2\PSCAD46\emtdc\if15\windows" /O1   "fortran_interface_c_1.f90"]]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="0"><![CDATA[	del "fortran_interface_c_1.f90"]]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="100004"><![CDATA[Compiling '"D:\C_Practice\Pyhton_C\Python_Invoker\x64\Debug\c_interface_python.c"' into object code.]]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="0"><![CDATA[已复制         1 个文件。]]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="0"><![CDATA[	cl.exe /nologo /MT /W3 /EHsc /c  /O2 "c_interface_python.c"]]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="0"><![CDATA[c_interface_python.c]]></message>
+    <message status="warning" label="build" scope="PSCAD_DDPG" groupid="200008"><![CDATA[c_interface_python.c(44): warning C4305: 'initializing': truncation from 'double' to 'float']]></message>
+    <message status="warning" label="build" scope="PSCAD_DDPG" groupid="200008"><![CDATA[c_interface_python.c(45): warning C4305: 'initializing': truncation from 'double' to 'float']]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="0"><![CDATA[	del "c_interface_python.c"]]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="100012"><![CDATA[Linking objects and libraries into binary 'PSCAD_DDPG.exe']]></message>
+    <message status="normal" label="build" scope="PSCAD_DDPG" groupid="400000"><![CDATA[Solve Time = 16ms]]></message>
+    <message status="error" label="runtime" scope="PSCAD_DDPG" groupid="300008"><![CDATA[The simulation process has stopped unexpectedly.
+Please review runtime messages for details.]]></message>
+  </messagelist>
+  <ViewContext>
+    <Window defn="PSCAD_DDPG:Main" call="0" />
+  </ViewContext>
+  <List classid="View">
+    <View name="Main" zoomlevel="6" scrollx="0" scrolly="0" />
+  </List>
+  <Catalog count="0" />
+  <Output device="EMTDC" version="2010" date="2020/11/20" time="12:17:03.000000">
+    <Domain name="Time" unit="s" mult="0.0" skew="0.0">
+      <Sample rate="20000.0" end="10000" />
+    </Domain>
+    <List classid="Analog">
+      <Analog name="Main(0):Reward" index="0" id="1038929372:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Untitled" index="1" id="585761034:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Out" index="2" id="1470622352:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Act" index="3" id="1082539334:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+    </List>
+    <List classid="Digital" />
+  </Output>
+</Meta>
