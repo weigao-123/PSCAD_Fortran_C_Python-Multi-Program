@@ -11,7 +11,7 @@ PSCAD can create a self-defined component, in which a like-Fortran code can be w
 A typic second order system, refer to PSCAD_DDPG.pscx
 The Fortran-C-interface function, refer to fortran_interface_c_1.f90
 The C-Python-interface function, refer to c_interface_python.c
-The main RL algorithm, refer to ddpg_ain.py
+The main RL algorithm, refer to ddpg_main.py
 
 # Environment setting
 The multiple programing is based on PSCAD 4.6.3, Intel Fortran compiler, VS 2019, Python 3.7
