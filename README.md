@@ -16,8 +16,9 @@ The main RL algorithm, refer to ddpg_ain.py
 # Environment setting
 The multiple programing is based on PSCAD 4.6.3, Intel Fortran compiler, VS 2019, Python 3.7
 
-Importrant thing 1: c_interface_python.c code needs some python include files and lib files (this include and lib folders are from Python root directory), since PSCAD will call VS 2019 via command line, we need to set the environment variables first, refer to: https://github.com/MicrosoftDocs/cpp-docs.zh-cn/blob/live/docs/build/setting-the-path-and-environment-variables-for-command-line-builds.md
-https://blog.csdn.net/m0_38125278/article/details/87191971?utm_medium=distribute.pc_relevant_bbs_down.none-task--2~all~first_rank_v2~rank_v28-3.nonecase&depth_1-utm_source=distribute.pc_relevant_bbs_down.none-task--2~all~first_rank_v2~rank_v28-3.nonecase
+Importrant thing 1: c_interface_python.c code needs some python include files and lib files (this include and lib folders are from Python root directory), since PSCAD will call VS 2019 via command line, we need to set the environment variables first, refer to: 
+## https://github.com/MicrosoftDocs/cpp-docs.zh-cn/blob/live/docs/build/setting-the-path-and-environment-variables-for-command-line-builds.md
+## https://blog.csdn.net/m0_38125278/article/details/87191971?utm_medium=distribute.pc_relevant_bbs_down.none-task--2~all~first_rank_v2~rank_v28-3.nonecase&depth_1-utm_source=distribute.pc_relevant_bbs_down.none-task--2~all~first_rank_v2~rank_v28-3.nonecase
 
 Importrant thing 2: When C is calling Python, it needs to use a embeded Python interpreter which requires some Pyhton dependencies: Lib, DLLs, python37.dll (those folders are from Python root directory)
 
