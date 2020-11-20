@@ -20,7 +20,7 @@ Importrant thing 1: c_interface_python.c code needs some python include files an
 ## https://github.com/MicrosoftDocs/cpp-docs.zh-cn/blob/live/docs/build/setting-the-path-and-environment-variables-for-command-line-builds.md
 ## https://blog.csdn.net/m0_38125278/article/details/87191971?utm_medium=distribute.pc_relevant_bbs_down.none-task--2~all~first_rank_v2~rank_v28-3.nonecase&depth_1-utm_source=distribute.pc_relevant_bbs_down.none-task--2~all~first_rank_v2~rank_v28-3.nonecase
 
-Importrant thing 2: When C is calling Python, it needs to use a embeded Python interpreter which requires some Pyhton dependencies: Lib, DLLs, python37.dll (those folders are from Python root directory)
+Importrant thing 2: When C is calling Python, it needs to use a embeded Python interpreter which requires some Pyhton dependencies: Lib, DLLs, python37.dll (those folders are from Python root directory and put them in the same directory as the PSCAD project)
 
 # Progress:
 Tested C can call Python can pass data back and forth without problem, but with PSCAD, it seems like there are something incompatible.
